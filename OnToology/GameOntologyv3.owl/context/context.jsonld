@@ -1,0 +1,301 @@
+{
+  "@context" : {
+    "ownsItem" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#ownsItem",
+      "@type" : "@id"
+    },
+    "hasPlayingArea" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#hasPlayingArea",
+      "@type" : "@id"
+    },
+    "Achievement" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Achievement"
+    },
+    "LoseEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#LoseEvent"
+    },
+    "ProductOrService" : {
+      "@id" : "http://purl.org/goodrelations/v1#ProductOrService"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "MenuEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#MenuEvent"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "GameProduct" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#GameProduct"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "InAppPurchaseEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#InAppPurchaseEvent"
+    },
+    "Tutorial" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Tutorial"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "purchasesGameOffering" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#purchasesGameOffering",
+      "@type" : "@id"
+    },
+    "Product" : {
+      "@id" : "http://schema.org/Product"
+    },
+    "hasFeature" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#hasFeature",
+      "@type" : "@id"
+    },
+    "isAchievedInSession" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isAchievedInSession",
+      "@type" : "@id"
+    },
+    "livesIn" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#livesIn",
+      "@type" : "@id"
+    },
+    "ownsCharacter" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#ownsCharacter",
+      "@type" : "@id"
+    },
+    "username" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#username",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Feature" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Feature"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Character" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Character"
+    },
+    "Completion" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Completion"
+    },
+    "Fandom" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Fandom"
+    },
+    "GameEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#GameEvent"
+    },
+    "Player" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Player"
+    },
+    "isLeaderboardInGame" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isLeaderboardInGame",
+      "@type" : "@id"
+    },
+    "SpecialPlayStyle" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#SpecialPlayStyle"
+    },
+    "Loyalty" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Loyalty"
+    },
+    "releaseDate" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#releaseDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "isSessionInGame" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isSessionInGame",
+      "@type" : "@id"
+    },
+    "involvesCharacter" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#involvesCharacter",
+      "@type" : "@id"
+    },
+    "Agent" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Agent"
+    },
+    "hasItem" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#hasItem",
+      "@type" : "@id"
+    },
+    "isFriendWithPlayer" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isFriendWithPlayer",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator",
+      "@type" : "@id"
+    },
+    "isEventRelatedToItem" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isEventRelatedToItem",
+      "@type" : "@id"
+    },
+    "eventName" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#eventName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "PopulatedPlace" : {
+      "@id" : "http://dbpedia.org/ontology/PopulatedPlace"
+    },
+    "startTime" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#startTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "isAchievementInGame" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isAchievementInGame",
+      "@type" : "@id"
+    },
+    "isEventInSession" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isEventInSession",
+      "@type" : "@id"
+    },
+    "isEventTriggeredByCharacter" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isEventTriggeredByCharacter",
+      "@type" : "@id"
+    },
+    "GainEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#GainEvent"
+    },
+    "Paragon" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Paragon"
+    },
+    "isCharacterInGame" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isCharacterInGame",
+      "@type" : "@id"
+    },
+    "Virtuosity" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Virtuosity"
+    },
+    "isCharacterInSession" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isCharacterInSession",
+      "@type" : "@id"
+    },
+    "isEventInGame" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isEventInGame",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "Leaderboard" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Leaderboard"
+    },
+    "knows" : {
+      "@id" : "http://xmlns.com/foaf/0.1/knows",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "Minigame" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Minigame"
+    },
+    "unlocksAchievement" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#unlocksAchievement",
+      "@type" : "@id"
+    },
+    "isItemInGame" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isItemInGame",
+      "@type" : "@id"
+    },
+    "PlayerEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#PlayerEvent"
+    },
+    "Veteran" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Veteran"
+    },
+    "Multiplayer" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Multiplayer"
+    },
+    "Game" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Game"
+    },
+    "PlayingArea" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#PlayingArea"
+    },
+    "endTime" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#endTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "InstantaneousEvent" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#InstantaneousEvent"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isEventAssociatedToPlayer" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isEventAssociatedToPlayer",
+      "@type" : "@id"
+    },
+    "hasGameGenre" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#hasGameGenre",
+      "@type" : "@id"
+    },
+    "Genre" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Genre"
+    },
+    "hasLeaderboard" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#hasLeaderboard",
+      "@type" : "@id"
+    },
+    "involvesAchievement" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#involvesAchievement",
+      "@type" : "@id"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "hasAchievement" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#hasAchievement",
+      "@type" : "@id"
+    },
+    "Session" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Session"
+    },
+    "ownsAchievement" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#ownsAchievement",
+      "@type" : "@id"
+    },
+    "Item" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Item"
+    },
+    "playsGame" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#playsGame",
+      "@type" : "@id"
+    },
+    "eventTime" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#eventTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "involvesPlayer" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#involvesPlayer",
+      "@type" : "@id"
+    },
+    "Luck" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Luck"
+    },
+    "Curiosity" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Curiosity"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "HardMode" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#HardMode"
+    },
+    "isPlayerInSession" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#isPlayerInSession",
+      "@type" : "@id"
+    },
+    "Collection" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#Collection"
+    },
+    "hasCharacter" : {
+      "@id" : "http://purl.org/net/VideoGameOntology#hasCharacter",
+      "@type" : "@id"
+    }
+  }
+}
